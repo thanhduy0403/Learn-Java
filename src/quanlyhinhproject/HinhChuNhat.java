@@ -9,7 +9,14 @@ package quanlyhinhproject;
  * @author User
  */
 public class HinhChuNhat implements IHinh {
+    String hoTen , lop;
 
+    public HinhChuNhat(String hoTen, String lop) {
+        this.hoTen = hoTen;
+        this.lop = lop;
+    }
+    
+    
     double canh1, canh2;
 
     public HinhChuNhat() {
